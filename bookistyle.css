@@ -1,0 +1,1025 @@
+body
+{
+    font-family:'Raleway', sans-serif; 
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+   
+        
+    }
+
+
+.maincontainer
+{
+    width: 100%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px ;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 48px;
+    height: auto;
+
+}
+#log{
+    width:auto;
+}
+
+#logimg
+{
+    width:120px;
+}
+
+nav{
+    display:block;
+    width: auto;
+
+}
+.navi-links 
+{
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    
+}
+
+.navi-links li
+{
+
+   list-style: none;
+   
+   
+}
+
+.navi-links li a 
+{
+    text-decoration: none;
+    color:rgb(82, 82, 82);
+    font-size: 20px;
+    width: auto;
+    padding-left: 30px;
+}
+
+.navi-links li a:hover
+{
+    color: #0065FC; 
+     border-top: 2px solid #0065FC;
+     padding-top: 65px;
+}
+
+.navi-links li a:active
+{
+    color: #0065FC; 
+     border-top: 2px solid #0065FC;
+     padding-top: 65px;
+}
+
+.heading1{
+    width: auto;
+}
+
+
+h3
+{
+    font-weight: 500px;
+    padding-top: 20px;
+    font-size: 28px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h5
+{
+    padding:0px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(82, 82, 82)
+}
+
+.box
+{
+    display: flex;
+    width: auto;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0px;
+}
+
+.box i 
+{
+    font-size: 20px;
+    padding: 25px;
+    color: black;
+    background:#F2F2F2 ;
+    display: flex;
+    border-radius: 15px 0 0 15px;
+    position: relative;
+}
+
+.box input
+{
+    flex: 1;
+    height: 65px;
+    width: auto;
+    margin:0px;
+    border:1px solid #F2F2F2;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600 ;
+    padding-left: 10px;
+    margin-right: -4px;
+}
+
+.box .btn1 
+{
+    background: #0065FC;
+    color: white;
+    margin-left: 0px;
+    border-style: none;
+    border-radius: 0 15px 15px 0;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    padding: 23px;
+    
+}
+.box .icnbtn{
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+    border-radius:0 15px 15px 0 ;
+    visibility: hidden;
+}
+.box .fa-magnifying-glass{
+    background: #0065FC;
+    color: white;
+    margin-left: 0px;
+    border-style: none;
+    border-radius: 0 15px 15px 0;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+
+}
+
+
+.filter
+{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+#flt
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1050px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    align-items: flex-start;
+    
+    
+}
+
+#para1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 100px;
+    margin-right: 25px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Raleway;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.btn2
+{
+     width:auto;
+     height: 60px;
+     font-size: 23px;
+     font-weight: 600;
+     font-family: Raleway;
+     background: white;
+     border:2px solid rgb(214, 209, 209);
+     border-radius: 32px;
+     align-items:center;
+     display: flex;
+     padding: 18px;
+     padding-left: 0px;
+     margin-bottom: 0px;
+     margin-top: 20px;
+
+     
+}
+
+
+
+.filter i
+{
+    padding: 19px;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 38px;
+    margin-right: 20px;
+    margin-left: -2px;
+}
+
+.btn2:hover
+{
+    background: #0065FC;
+    color:white;
+    
+}
+
+.info1
+{
+    display:flex;
+    margin-top: 40px;
+    max-width: 530px;
+    align-items: baseline;
+}
+
+.info1 p
+{
+margin-left: 15px;
+font-size: 20px;
+color:rgb(82, 82, 82) ;
+
+}
+
+.info1 i
+{
+    border: 1px solid rgb(214, 209, 209);
+    color: #0065FC;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 900 bolder;
+    align-items: center ;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+ 
+
+}
+
+.cardcontainer1
+{
+    background: #F2F2F2;
+    width: 1100px;
+    border-radius: 25px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px; 
+    margin-bottom: 20px;
+    
+
+}
+
+#acco1
+{
+    display: flex;
+    width: 100%;
+    margin-left: 60px;
+    font-weight: 500px;
+    font-size: 28px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.card1
+{
+    
+    background: white;
+    width: 300px;
+    max-height: 300px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow:  0 5px 10px rgb(214, 209, 209);
+}
+
+.card-img
+{
+max-height: 150px;
+overflow: hidden;
+padding: 8px;
+}
+
+.card-img img
+{
+    max-width: 100%;
+    height:auto;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.card-info
+{
+    margin-top: 0px;
+    margin-left: 25px;
+    padding: 0px;
+
+}
+
+ .card-title
+ {
+     margin-top: 10px;
+     margin-bottom: 0px;
+     font-size: 18px;
+ }
+
+ .description
+ {
+     margin-top: 8px;
+     margin-bottom: 5px;
+ }
+
+.card-star
+{
+margin-bottom: 10px;
+}
+
+.checked
+{
+    color: #0065FC;
+}
+
+.gray
+{
+    color:rgb(214, 209, 209);
+}
+
+.show
+{
+margin-bottom: 60px;
+margin-left: 65px;
+display: flex;
+width: 100%;
+
+}
+
+.show a
+{
+    font-size: 23px;
+    font-weight: 500 bold;
+    color: black;
+    text-decoration: none;
+}
+
+#most
+{
+    display: flex;
+    width: 450px;
+    font-weight: 500px;
+    font-size: 28px;
+    margin-left: 60px;
+    justify-content:space-between;
+}
+  
+    
+
+#most i{
+    padding-right: 60px;
+}
+
+
+
+.cardcontainer2
+{
+    background: #F2F2F2;
+    width: 520px;
+    border-radius: 25px;
+    height:884px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    
+}
+
+
+    
+
+
+ .card2
+ {
+    display: flex;
+    background: white;
+    max-width: 420px;
+    max-height: 190px;
+    border-radius: 25px;
+    box-shadow:  0 5px 10px rgb(214, 209, 209);
+
+  
+
+  
+}
+
+
+ .card-img1
+ {
+    height: 170px;
+    padding: 8px;
+    max-width: 150px;
+   
+ }
+
+.card-img1 img
+{
+    width:150px;
+    height: 170px;
+    border-radius: 25px 0px 0px 25px;
+
+}
+
+.card-info1
+{
+
+    width: 200px;
+    height: 170px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+   
+}
+
+.card-title1
+{
+    font-size: 18px;   
+    margin-top: 3px;
+    margin-bottom: 0px;
+
+}
+
+.description1
+{
+margin-top: 10px;
+padding-top: 0px;
+}
+
+
+.card-star1
+{
+    margin-top: 60px;
+   font-size: 15px;
+}
+
+ 
+.card2:hover
+{
+    box-shadow:  0.5px 1px rgb(214, 209, 209);
+}
+.card1:hover
+{
+    box-shadow:  0.5px 1px rgb(214, 209, 209);
+}
+
+#act
+{
+    font-weight: 500px;
+    font-size: 28px;
+    margin-top: 50px; 
+}
+
+.photocard
+{
+    width:auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.photocard1
+{
+    width:380px;
+    height: 580px;
+    box-shadow: 0 5px 10px rgb(214, 209, 209);
+    border-radius: 20px;
+    margin-bottom:20px;
+
+
+   
+}
+.photocard1 a img
+{
+    height: 500px;
+    width:380px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+}
+
+.photocard h5
+{
+    padding:0px;
+    margin-left: 20px; 
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.photocard2
+{
+    width:380px;
+    height: 340px;
+    box-shadow: 0 5px 10px rgb(214, 209, 209);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.photocard2 a img 
+{
+    height: 250px;
+    width:380px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+} 
+
+.photocard3
+{
+    width:380px;
+    height: 200px;
+    box-shadow: 0 5px 10px rgb(214, 209, 209);
+    border-radius: 20px;
+    margin-bottom:20px;
+
+ 
+}
+.photocard3 a img 
+{
+    height: 120px;
+    width: 380px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+} 
+.photocard4
+{
+    width:380px;
+    height: 270px;
+    box-shadow: 0 5px 10px rgb(214, 209, 209);
+    border-radius: 20px;
+    margin-bottom:20px;
+ 
+}
+.photocard4 a img 
+{
+    height: 190px;
+    width:380px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+} 
+
+.mrg1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+   
+    
+    }
+.mrg2{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+       
+        }
+
+.photocard1:hover{
+    box-shadow: 0 0.5px 1px rgb(214, 209, 209);
+}        
+
+.photocard2:hover{
+    box-shadow: 0 0.5px 1px rgb(214, 209, 209);
+}        
+
+.photocard3:hover{
+    box-shadow: 0 0.5px 1px rgb(214, 209, 209);
+}        
+
+.photocard4:hover{
+    box-shadow: 0 0.5px 1px rgb(214, 209, 209);
+}        
+
+
+
+
+        
+.footer{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background: #F2F2F2;
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    position: absolute;
+    left: 0;
+    padding-bottom: 30px;
+
+
+}
+ 
+.footcontainer{
+margin-right: 250px;
+margin-left: 20px;
+margin-top: 30px;
+
+}
+
+
+.foothead{
+    list-style: none;
+}
+.foothead a{
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    
+    
+}
+.foothead a{
+    text-decoration: none;
+}
+.footsub{
+    list-style: none;
+    padding-bottom: 20px;
+   
+
+}
+.footsub a{
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(82, 82, 82);
+    text-decoration: none;
+    
+}
+.subcontainer{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:768px) 
+{
+    body{
+        width: 375px;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        align-content: center;
+       
+    }
+    
+    
+    .maincontainer{
+        width :100%;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+   
+    header{
+        width: 100%;
+
+    }
+    #log{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+    }
+    nav
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+
+    .navi-links
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+    .navi-links li{
+        width: 100%;
+        border-bottom:2px solid  #F2F2F2; 
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        
+    }
+    .navi-links li a:hover
+    {
+     border-bottom: 2px solid #0065FC;
+     border-top: none;
+    }
+
+    .navi-links li a:active
+    {
+     border-bottom: 2px solid #0065FC;
+     border-top: none;
+
+    }
+    .section1{
+        margin: 10px;
+    }
+    .headings1 {
+     max-width:100px ; 
+     }
+
+     .heading1 h3{
+         font-size: 23px;
+     }
+   
+     
+    .box{
+     max-width: 100%;
+     display: flex;
+     height: 70px;
+
+     }
+     .box i 
+     {
+     width:auto;
+     }
+    form
+    {
+     height: 70px;
+     display: flex;
+     max-width: 200px;
+    }
+    .box input
+     {
+     width:auto;
+
+     }
+    .box .btn1
+    {
+     visibility: hidden;
+     width: 10px;
+     padding: 0px;
+     position: relative;
+     left: -20px;
+    }
+    .box .icnbtn
+    {
+     padding: 0px;
+     margin: 0px;
+     border-style: none;
+     border-radius:0 15px 15px 0 ;
+     visibility: visible;
+     position: relative;
+     left: -40px;
+    }
+    .box .fa-magnifying-glass
+    {
+     background: #0065FC;
+     color: white;
+     margin-left: 0px;
+     border-style: none;
+     border-radius: 0 15px 15px 0;
+     font-size: 20px;
+     text-align: center;
+     width: auto;
+    } 
+    #flt
+    {
+     display: flexbox;
+     flex-wrap:wrap;
+     justify-content:left;
+     width: 100%;
+     max-height: 340px;
+    }
+
+    .btn2
+    {
+     font-size: 17px;
+     width: auto; 
+     padding-left: 0px;
+    
+    }
+   
+    #pets
+    {
+     width: 250px;
+    }
+    #family
+    {
+     width:230px;
+    }
+    #romans
+    {
+     width:170px;
+     position: absolute;
+     right: 10px;
+    }
+    #low
+    {
+     width: 170px;
+    }
+
+    .info1 p
+    {
+     font-size: 19px;
+     max-width: 350px;
+     padding-bottom: 20px;
+    }
+
+    .flex-container
+    {
+     width:auto;
+
+  
+    }
+    .cardcontainer1
+    {
+     width: 100%;
+     background: none;
+     padding-top: 0px;
+    }
+
+    .cardcontainer2
+    {
+     width: 100%;
+     border-radius:0px;
+     margin-bottom: 0px;
+     z-index: 3;
+
+    }
+
+    #most
+    {
+     margin-left: 10px;
+    }
+
+    .card2
+    {
+     margin-left: 20px;
+     margin-right: 20px;
+     width: 370px;
+     height: 220px;
+    }
+
+    .card-star1
+    {
+     margin-top:40px;
+    }
+
+    #acco1
+    {
+     width: 100%;
+     font-size: 23px;
+     margin-left: 20px;
+     margin-top: 20px;
+     padding-top: 20px;
+    }
+
+    .card1
+    {
+     width: 100%;
+     margin: 0px;
+     margin-bottom: 20px;
+    }
+
+    .show
+    {
+     margin-left: 10px;
+     font-size: 23px;
+    }
+    .section2{
+        justify-content: center;
+        align-content: center;
+        margin-left: 10px;
+    }
+    #act
+    {
+     font-size: 23px;
+     margin-top: 0px;
+     padding-top: 0px;
+     margin-left: 10px;
+    }
+
+    .photocard1 
+    {
+     width: 355px;
+     height: 200px;
+    }
+
+    .photocard1 a img
+    {
+     width: 100%;
+     height: 140px;
+    }
+
+    .photocard h5
+    {
+     margin-top: 10px;
+    }
+
+    .photocard2 
+    {
+     width: 355px;
+     height: 200px;
+    }
+
+    .photocard2 a img
+    {
+     width: 100%;
+     height: 140px;
+    }
+    .photocard3 
+    {
+     width: 355px;
+     height: 200px;
+    }
+    .photocard3 a img
+    {
+     width: 100%;
+     height: 140px;
+    }
+    .photocard4 
+    {
+     width: 355px;
+     height: 200px;
+    }
+    .photocard4 a img
+    {
+     width: 100%;
+     height: 140px;
+    }
+
+    .mrg2
+    {
+     width: 355px;
+    }
+
+    .mrg1
+    {
+     width: 355px;
+    }
+    
+    
+
+    .footcontainer 
+    {
+    width: 375px;
+     margin-left: 0px;
+     margin-right: 30px;
+    }
+    .footer{
+     width: 375px;
+    }
+   
+}
