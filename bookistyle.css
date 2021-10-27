@@ -907,9 +907,9 @@ margin-top: 30px;
 
     .card2
     {
-     margin-left: 20px;
-     margin-right: 20px;
-     width: 370px;
+     margin-left: 10px;
+     margin-right: 10px;
+     width: 360px;
      height: 220px;
     }
 
@@ -930,7 +930,7 @@ margin-top: 30px;
     .card1
     {
      width: 100%;
-     margin: 0px;
+     margin: 10px;
      margin-bottom: 20px;
     }
 
